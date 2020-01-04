@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroundGameFlow"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:text="Time Left"
+            android:textStyle="italic"
+            android:textSize="45sp"
+            android:textColor="@color/color_text"
+            />
+
+        <TextView
+            android:id="@+id/main_TXV_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp"
+            android:textColor="@color/color_text"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:text="Score"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:textColor="@color/color_text"
+            />
+
+        <TextView
+            android:id="@+id/main_TXV_counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:textColor="@color/color_text"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/main_TXV_press"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please press the right button to start"
+        android:layout_above="@id/main_LL_buttons"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textColor="@color/color_text_notify"/>
+
+    <LinearLayout
+        android:id="@+id/main_LL_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/main_BTN_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/color_btn_left"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/main_BTN_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/color_btn_right"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

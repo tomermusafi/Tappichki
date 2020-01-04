@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="backGroundGameFlow">#03A9F4</color>
+    <color name="backGroundBannerFragment">#038ECC</color>
+    <color name="color_btn_left">#3F51B5</color>
+    <color name="color_btn_right">#F44336</color>
+    <color name="color_text">#FFFFFF</color>
+    <color name="color_text_notify">#000000</color>
+    <color name="color_list">#DFDFFA</color>
+</resources>
